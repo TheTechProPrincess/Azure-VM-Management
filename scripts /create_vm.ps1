@@ -1,4 +1,4 @@
-### **1️⃣ Deploy an Azure Virtual Machine**  
+Deploy an Azure Virtual Machine**  
 This command will create a new **Windows 11 VM** in Azure:  
 
 ```sh
