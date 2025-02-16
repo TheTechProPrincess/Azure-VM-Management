@@ -1,5 +1,5 @@
-Enable Auto-Shutdown to Reduce Costs
+### **1️⃣ Deploy an Azure Virtual Machine**  
+This command will create a new **Windows 11 VM** in Azure:  
 
-This will schedule the VM to shut down at 10:00 PM daily to save cloud costs:
-Set-AzVM -ResourceGroupName "VM-Group" -Name "EnterpriseVM" -AutoShutdown 22:00
-
+```sh
+New-AzVM -ResourceGroupName "VM-Group" -Name "EnterpriseVM" -Location "EastUS" -VirtualNetworkName "EnterpriseVNet" -SubnetName "VM-Subnet" -SecurityGroupName "VM-NSG" -PublicIpAddressName "VM-PublicIP"
